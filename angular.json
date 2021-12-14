@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "f3d651e2-8dab-4a67-8607-35fa7d42ddb7"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -69,6 +72,7 @@
           "configurations": {
             "production": {
               "browserTarget": "stock-bar:build:production"
+            
             },
             "development": {
               "browserTarget": "stock-bar:build:development"
